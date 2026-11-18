@@ -1,0 +1,25 @@
+# Entornos y caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.streamlit/secrets.toml
+# Datos introducidos por el usuario y resultados locales
+datos_prueba/*
+!datos_prueba/.gitkeep
+salidas*/
+resultados*/
+datos_reserva/
+evaluacion_final/
+# Registros y diagnósticos
+*.log
+pilas.txt
+diagnostico.txt
+resultados_diagnostico*.txt
+# Archivos de usuario y temporales
+*.bak
+*~
+.DS_Store
+Thumbs.db

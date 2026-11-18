@@ -1,0 +1,19 @@
+# Versiones con las que se congeló y evaluó la versión 2, más lo que necesita la interfaz.
+# Python 3.13. Instalar con:  pip install -r requisitos.txt
+
+# Motor y versión 1 (congeladas: no cambiar)
+pandas==3.0.5
+numpy==2.5.3
+statsmodels==0.15.0
+xgboost==3.4.1
+scipy==1.18.1
+scikit-learn==1.9.1
+openpyxl==3.1.5
+prophet==1.5.0
+cmdstanpy==1.3.2
+
+# Interfaz (instala también altair, pyarrow, pydeck y websockets)
+streamlit==1.67.0
+
+# Solo para las pruebas de la interfaz (cancelar cálculos y comprobar procesos)
+psutil==7.2.2
