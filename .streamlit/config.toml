@@ -1,0 +1,20 @@
+# Configuración de la interfaz. Se aplica al ejecutar `streamlit run interfaz/app.py` desde la carpeta del proyecto.
+
+[browser]
+gatherUsageStats = false        # no se envían estadísticas de uso a Streamlit
+
+[server]
+address = "localhost"           # solo se puede abrir desde este ordenador
+maxUploadSize = 300             # MB por archivo
+fileWatcherType = "none"
+
+[client]
+showErrorDetails = "none"       # un error inesperado no enseña datos en pantalla
+toolbarMode = "minimal"
+
+[logger]
+level = "warning"
+
+[theme]
+base = "light"
+primaryColor = "#1F5FA8"
